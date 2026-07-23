@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Card from '../components/Card'
+import Card from '../Components/Card'
 import toast from 'react-hot-toast'
 
 const Home = ({ cantidadCarrito, incrementarCarrito, carrito = [] }) => {
