@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
-import Footer from './components/Footer'
+import Footer from './Components/Footer'
 import Home from './views/Home'
 import Login from './views/Login'
 import { Toaster } from 'react-hot-toast'
