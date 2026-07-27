@@ -222,7 +222,7 @@ const Home = ({ cantidadCarrito, incrementarCarrito, carrito = [] }) => {
                   value={claveRegistro}
                   onChange={(e) => setClaveRegistro(e.target.value)}
                   disabled={registrando}
-                  className="w-full p-2 text-xs border border-gray-200 rounded-lg outline-none focus:border-emerald-600"
+                  className="bg-red-800 hover:bg-red-900 text-white font-medium py-2 px-4 rounded-lg transition-colors"
                 />
               </div>
 

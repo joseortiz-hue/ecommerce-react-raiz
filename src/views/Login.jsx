@@ -58,7 +58,7 @@ const Login = () => {
         throw new Error("Fallo en el servidor de base de datos")
       }
 
-      toast.success("¡Bienvenido a Raíz Oxapampina!")
+      toast.success("¡Bienvenido a ORGANA!")
       navigate('/')
 
     } catch (error) {
