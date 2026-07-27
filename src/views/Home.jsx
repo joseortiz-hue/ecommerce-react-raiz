@@ -229,7 +229,7 @@ const Home = ({ cantidadCarrito, incrementarCarrito, carrito = [] }) => {
               <button 
                 type="submit"
                 disabled={registrando}
-                className="w-full bg-emerald-600 text-white text-xs font-semibold py-2 rounded-lg hover:bg-emerald-700 transition-colors"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg"
               >
                 {registrando ? 'Registrando...' : 'Registrarme'}
               </button>
@@ -271,7 +271,7 @@ const Home = ({ cantidadCarrito, incrementarCarrito, carrito = [] }) => {
                     alert('Procediendo al pago...');
                   }
                 }}
-                className="w-full bg-emerald-600 text-white font-bold py-2.5 rounded-lg hover:bg-emerald-700 transition-colors shadow-sm text-center"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg"
               >
                 Ir a Pagar
               </button>

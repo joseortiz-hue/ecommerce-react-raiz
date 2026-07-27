@@ -7,7 +7,7 @@ const Header = ({ cantidad }) => {
       <div className="header-logo">
         {/* Al hacer clic en el título, te lleva a la raíz '/' sin recargar la página */}
         <Link to="/" className="text-xl font-bold text-[#1e3a1e] tracking-tight hover:opacity-90">
-          Raíz Oxapampina
+          ORGANA
         </Link>
       </div>
 
