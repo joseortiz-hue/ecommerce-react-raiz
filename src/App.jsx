@@ -46,6 +46,16 @@ const App = () => {
             path="/login" 
             element={<Login />} 
           />
+        <Route
+          path="*"
+          element={
+              <Home
+              cantidadCarrito={cantidadCarrito} 
+              incrementarCarrito={agregarAlCarrito} 
+              carrito={carrito}
+          />
+        }
+        />
         </Routes>
       </div>
       
